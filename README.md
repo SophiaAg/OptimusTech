@@ -4,6 +4,5 @@ Este projeto foi desenvolvido como parte do desafio #7DaysOfCode da Alura, no qu
 Além de praticar minhas habilidades em HTML, CSS e responsividade, este projeto também me permitiu aprofundar meus conhecimentos em boas práticas de desenvolvimento, organização de código e design moderno. Foi uma excelente oportunidade para consolidar meu aprendizado e evoluir como desenvolvedor(a) front-end. 🚀.
 
 ![Descrição da Imagem](img/im1.png)
-![Descrição da Imagem](img/im2.png)
-![Descrição da Imagem](img/im3.png)
-![Descrição da Imagem](img/im4.png)
+![Descrição da Imagem](https://github.com/SophiaAg/OptimusTech/blob/main/img/im1.png)
+![Descrição da Imagem](https://github.com/SophiaAg/OptimusTech/img/im1.png)
