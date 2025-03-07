@@ -1,0 +1,228 @@
+:root{
+    --cor-primaria:#8E2424 ;
+    --cor-secundaria:#C3191908;
+    --cor-titulo:#101828;
+    --cor-texto:#667085;
+    --cor-texto-end:#98A2B3;
+    --cor-borda:#D0D5DD;
+    --cor-footer: #F9FAFB;  
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+  }
+  
+
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    background-color:var(--cor-secundaria);
+    padding: 20px;
+    display: flex;
+}
+
+header .logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20%;
+    color: var(--cor-titulo);
+}
+
+header .temas{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin:auto;
+    color: var(--cor-texto);
+}
+
+header .btn{
+    width: 20%;
+    height: 44px;
+    display: flex;
+    padding: inherit;
+    border-radius: 10px;
+    gap: 10%;
+}
+
+header .btn button{
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+header .btn button:last-child{
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-borda);
+}
+
+main .aboutus{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+main .aboutus h1{
+    color: var(--cor-titulo);
+    font-size: 48px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .aboutus p{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .numbers{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 5%;
+
+}
+
+main .numbers .cards{
+    padding: 30px;
+}
+
+main .numbers .cards h1{
+    font-size: 60px;
+    color: var(--cor-primaria);
+}
+
+main .numbers .cards h2{
+    font-size: 18px;
+    color: var(--cor-titulo);
+}
+
+main .vagas{
+    margin: 10%;
+}
+
+main .vagas button{
+    display: grid; /* Enables CSS Grid */
+    place-items: center; /* Centers both horizontally and vertically */
+    margin:auto;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+}
+
+main .vagas h1{
+    text-align: center;
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+main .vagas p{
+    text-align: center;
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .vagas img{width: 100%;}
+
+main .areas{
+ margin-left: 20%;
+ margin-right: 20%;
+ 
+}
+
+main .areas .area-card{
+    border-radius: 20px;
+    margin: 3%;
+}
+
+main .areas .area-card h1{
+    font-size: 20px;
+    margin: 3%;
+}
+
+main .areas .area-card h2{
+    font-size:18px;
+}
+
+main .areas .area-card .card{
+    border: 1px solid var(--cor-borda);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+main .about-funcionarios{
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+}
+
+main .about-funcionarios p:first-child{
+    color: var(--cor-primaria);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+main .about-funcionarios p{
+    color: var(--cor-texto);
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+main .about-funcionarios h1{
+    color: var(--cor-titulo);
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main .about-funcionarios img{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-footer) ;
+}
+
+footer p:last-child{
+    color: var(--cor-texto-end);
+}
+
+footer input{
+    border-radius: 5px;
+    border: 1px solid var(--cor-borda);
+    height: 28px;
+}
+
+footer button{
+    width: 8%;
+    height: 28px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--cor-primaria);
+    color: var(--cor-borda);
+   
+}
+
+
+
+ 
